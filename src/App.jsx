@@ -4,6 +4,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
 import Formulaire from './Formulaire'
+import Login from "./Login";
 
 function UserCard(props) {
   return (
@@ -34,6 +35,8 @@ export default function App() {
       <Counter />
 
       <Formulaire />
+
+      <Login />
     </div>
   );
 }
